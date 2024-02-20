@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export const Eliminar = () => {
+export const UpdateDelete = () => {
 
     const [zapatos, setZapatos] = useState([])
     const [panelUpdate, setPanelUpdate] = useState(false)

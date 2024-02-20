@@ -8,3 +8,15 @@
         minmax(400px,1fr)
     );
 }
+
+.fondoImage{
+    background-image: url('https://live.staticflickr.com/633/22552103058_427df9863b_b.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fondoImage2{
+    background-image: url('https://sananastasio.com/wp-content/uploads/tipos-de-zapatos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
