@@ -4,7 +4,7 @@ import { CiLogin } from "react-icons/ci";
 
 export const Navbar = () => {
   return (
-    <header className="w-full h-[70px] bg-black flex justify-around items-center">
+    <header className="w-full h-[70px] bg-black flex justify-around items-center top-0 fixed">
         <Link to='/'>
             <img className='invert w-11 h-10' src={image} alt="" />
         </Link>

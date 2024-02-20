@@ -29,13 +29,13 @@ export const Agregar = () => {
     className="w-full flex flex-col justify-center items-center"
     action="">
         <label htmlFor="marca">Marca</label>
-        <input className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="marca" type="text" />
+        <input required className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="marca" type="text" />
         <label htmlFor="color">Color</label>
-        <input className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="color" type="text" />
+        <input required className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="color" type="text" />
         <label htmlFor="talla">Talla</label>
-        <input className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="talla" type="text" />
+        <input required className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="talla" type="text" />
         <label htmlFor="img">Url de Imagen</label>
-        <input className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="img" type="text" />
+        <input required className="outline-none px-3 py-1 border-b-2 focus:border-b-blue-500 rounded-xl" name="img" type="text" />
         <button type="submid">
             Agregar
         </button>
